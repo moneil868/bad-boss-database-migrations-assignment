@@ -4,6 +4,5 @@ class RemoveFieldsinLocationsTable < ActiveRecord::Migration[5.0]
     remove_column :locations, :address, :string
     remove_column :locations, :phone_number, :string
     remove_column :locations, :branch_number, :integer
-
   end
 end
